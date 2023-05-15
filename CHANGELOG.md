@@ -1,3 +1,7 @@
+## 5.0.3 (2023-05-15)
+
+- added line for turbo bug in lib/chartkick/helper.rb
+
 ## 5.0.2 (2023-05-02)
 
 - Updated Chart.js to 4.3.0
