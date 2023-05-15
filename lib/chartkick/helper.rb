@@ -119,7 +119,7 @@ module Chartkick
             var createChart = function() { #{createjs} };
             if ("Chartkick" in window) {
               createChart();
-              window.addEventListener("turbo:load", createChart);
+              window.addEventListener("turbo:frame-load", createChart);
             } else {
               window.addEventListener("chartkick:load", createChart, true);
             }
